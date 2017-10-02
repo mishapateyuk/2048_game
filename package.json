@@ -1,0 +1,39 @@
+{
+  "name": "2048_game",
+  "version": "1.0.0",
+  "description": "the 2048 game made with react + redux",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "commitmsg": "commitlint -e",
+    "prepush": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mishapateyuk/2048_game.git"
+  },
+  "keywords": [
+    "2048"
+  ],
+  "author": "Misha Pateyuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mishapateyuk/2048_game/issues"
+  },
+  "homepage": "https://github.com/mishapateyuk/2048_game#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^3.2.0",
+    "@commitlint/config-angular": "^3.1.1",
+    "cz-conventional-changelog": "^2.0.0",
+    "eslint": "^4.7.2",
+    "husky": "^0.14.3",
+    "webpack": "^3.6.0"
+  }
+}
