@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "commitmsg": "commitlint -e",
-    "prepush": "npm test"
+    "commitmsg": "commitlint -e"
   },
   "repository": {
     "type": "git",
