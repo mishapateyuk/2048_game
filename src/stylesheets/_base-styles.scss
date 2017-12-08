@@ -1,3 +1,34 @@
 html {
-  font-size: $html-font-size;
+  font-size: $font-global-size;
+  font-color: $font-global-color;
+  font-family: $font-global-family;
+}
+
+body {
+  background-color: $background-global-color;
+}
+
+.p-wrapper {
+  width: $wrapper-width;
+  margin: auto;
+}
+
+.container {
+  min-height: calc(100vh - #{$footer-hight});
+}
+
+.clearfix:after {
+   content: '';
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
 }
